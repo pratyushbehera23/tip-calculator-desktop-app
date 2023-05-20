@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline'" />
+    <title>Tip Calculator</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <script src="js/renderer.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Tip Calculator</h1>
+        <input type="number" name="amount" id="amount" placeholder="Total amount" required>
+        <input type="number" name="people" id="people" placeholder="No of person" required>
+        <input type="number" name="tipper" id="tipper" placeholder="Tip percentage" required>
+
+        <button id="btn" type="submit">Calculate</button>
+        <!-- <input type="submit" value="Calculate" id="btn"> -->
+
+        <div id="state">
+            <span id="ment">Each person will pay:</span><span id="sym">$</span><span id="output"></span>
+        </div>
+    </div>
+</body>
+</html>

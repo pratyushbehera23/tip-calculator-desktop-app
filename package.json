@@ -1,0 +1,14 @@
+{
+  "name": "tipcalc",
+  "version": "1.0.0",
+  "description": "Tip calculator app",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "Pratyush Behera",
+  "license": "MIT",
+  "dependencies": {
+    "electron": "^24.3.1"
+  }
+}

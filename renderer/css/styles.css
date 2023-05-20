@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size: 1.6rem;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    overflow: hidden;
+    /*  */
+    background-image: url(../images/foodbg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.container{
+    padding: 2rem 4rem;
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: 0 0 12px #0000000e;
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+}
+input{
+    padding: 1rem;
+}
+#btn{
+    cursor: pointer;
+    font-size: inherit;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    background: #000;
+    transition: all 0.2s;
+}
+#btn:hover{
+    transform: translate(1px, -1px);
+    box-shadow: 0 0 12px #00000090;
+}
+#btn:active{
+    transform: translate(0px, 0px);
+    box-shadow: none;
+}
+#state{
+    display: flex;
+    justify-content: space-evenly;
+}
+#ment{
+    color: #555;
+}
+#sym{
+    display: none;
+}
+#output{
+    font-weight: bold;
+}
+
+/* ------------- */
+
+.about-wrapper{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    min-height: 100vh;
+    background: #000;
+}
+.about-img{
+    margin: 0 auto;
+    margin-bottom: 2rem;
+}
+.about-h2{
+    font-size: 2.2rem;
+    font-weight: normal;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 1.2rem;
+}
+.about-p{
+    font-size: 1.8rem;
+    color: #1daca0;
+}
